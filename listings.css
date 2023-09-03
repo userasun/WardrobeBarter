@@ -1,0 +1,218 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    background-color: #A0E7E5;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    width:100%;
+    height:40px;
+}
+
+.navbar a {
+    text-decoration:none;
+}
+
+a.active {
+    color: white!important;
+}
+a:hover {
+    color: white!important;
+}
+a:visited {
+    color:black;
+}
+header {
+    background: #FBE7C6;
+    height: 200px;
+    margin-top: 20px;
+    background-image: url(pics/websiteLogo.png);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: lighter;
+    text-align: center;
+    color:black;
+    text-align: center;
+    line-height: 200px;
+    margin: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #FFAEBC;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #ec8f9e;
+}
+
+.dropdown-content {
+    list-style-type: none;
+    background-color: white;
+    position: absolute;
+    border: solid .5px;
+    border-radius: 4px;
+    border-color: #FFAEBC;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 12px;
+}
+
+.dropdown-content a:hover {
+    background-color: #FFAEBC;
+}
+
+.dropdown-content li {
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.dropdown-content li:hover {
+    background-color: #95B1AF;
+}
+
+.dropdown-content li a {
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+.containerSub {
+    display:grid;
+    grid-auto-flow: column;
+    margin-top: 10px;
+    padding-left: 120px;
+    padding-right:120px;
+}
+
+.containerSearchbar {
+    display:flex;
+    justify-content: end;
+}
+
+.containerMain {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left:60px;
+    padding-right:60px;
+}
+
+.listingBox {
+    text-align: center;
+    height: 350px;
+    width:220px;
+    padding: 20px;
+    margin: 10px;
+    border: 0px solid rgb(126, 126, 126);
+    background-color: #B4F8C8;
+}
+.sellerInfo {
+    display: flex;
+    align-items: stretch;
+    margin-left:20px;
+}
+.sellerInfo .username {
+    margin-left:10px;
+    margin-top:50px;
+    font-weight: bold;
+}
+
+.containerPagination {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    color: #95B1AF;
+    padding: 10px 40px;
+}
+
+.link {
+    display: inline-block;
+    margin: 10px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.link.active {
+    color:black;
+
+}
+
+.link:hover {
+    color:black;
+}
+
+.leftbtn, .rightbtn {
+    display: inline-flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 400;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #95B1AF;
+    cursor: pointer;
+}
+
+.leftbtn:hover, .rightbtn:hover{
+    color: black;
+}
+
+footer {
+    text-align: center;
+    background-color: #FBE7C6;
+    margin-top: 20px;
+    height:185px;
+}
+
+footer ul {
+    margin-top: 2.5%;
+}
+
+ul {
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 10px;
+  }

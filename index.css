@@ -1,0 +1,107 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    background-color: #A0E7E5;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    width:100%;
+    height:40px;
+}
+
+.navbar a {
+    text-decoration:none;
+    color:black;
+}
+
+a.active {
+    color: white!important;
+}
+a:hover {
+    color: white!important;
+}
+a:visited {
+    color:black;
+}
+header {
+    background: #FBE7C6;
+    height: 200px;
+    margin-top: 20px;
+    background-image: url(pics/websiteLogo.png);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight:lighter;
+    text-align: center;
+    color:black;
+    text-align: center;
+    line-height: 200px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.infoBox {
+    text-align: center;
+    width: 625px;
+    height: 520px;
+}
+
+.infoBox.list {
+    background: #B4F8C8;
+}
+
+.infoBox.offer {
+    background: #A0E7E5;
+}
+
+.infoBox.trade {
+    background: #FFAEBC;
+}
+.infoBox img {
+    width: 240px;
+    height: 240px;
+}
+
+.containerMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+p {
+    font-size: large;
+    font-weight: bold;
+    margin-left:60px;
+    margin-right:60px;
+}
+
+footer {
+    text-align: center;
+    background-color: #FBE7C6;
+    margin-top: 20px;
+    height:185px;
+}
+footer ul {
+    margin-top: 2.5%;
+}
+
+ul {
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 10px;
+  }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Wardrobe Barter - Create New Listing</title>
+    <link rel="stylesheet" type="text/css" href="createlisting.css">
+    <script src = "createlisting.js" defer></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a class="active" href="index.html">Home</a>
+      <a href="listings.html">Listings</a>
+      <a href="profile.html">My Profile</a>
+      <a href="index.html">Logout</a>
+    </div>
+    <header>
+      <h1>Create New Listing</h1>
+    </header>
+    
+
+    <div class ="containerMain">
+        <div class="containerBackButton"><a class="backLink" href="profile.html">Go Back to My Profile</a></div>
+        <div class="containerProfile">
+            <img src="pics/profilepic-square.png" alt="woman smiling">
+                <div class="profileInfo">
+                    <span class="profileName">granitejanet</span>
+                </div>
+        </div>
+
+        <div class="containerCreate">
+            <div class="displaySquare">
+              <div id="picToastBig">Upload Appropriate</div>
+                <label for="newFile" class="displayText">Display Photo:</label> <input id="newFile" type="file" class="file">
+            </div>
+            
+            <div class="forms">
+                <form>
+                    <div class="shortTextInput"><input type="text" placeholder="Item Name"></div>
+                    <br>
+                    <div class="longTextInput"><textarea placeholder="Item Description" rows="10" cols="40"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="addPhotos">
+              <div id="picToastSmall">Upload Appropriate</div>
+                <ul class="fileUpload">
+                    <li><label for="newFile">Add Photo:</label> <input type="file" class="file"></li>
+                    <li><label for="newFile">Add Photo:</label> <input type="file" class="file"></li>
+                    <li><label for="newFile">Add Photo:</label> <input type="file" class="file"></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="containerButtons">
+          <div id="toast">Listing Created!</div>
+          <div class="saveButton"><input type="submit" value="Save Draft"></div>
+          <div class="confirmButton"><input type="submit" onclick="toast()" value="Create Listing"></div>
+        </div>
+    
+    </div>
+
+    <footer>
+      <ul>
+        <li><strong>Follow us!</strong></li>
+        <li><img src="pics/instagramLogo.png" alt="instagram logo"><img src="pics/facebookLogo.png" alt="facebook logo"><img src="pics/twitterLogo.png" alt="twitter logo"><img src="pics/tiktok.png" alt="tiktok logo"></li>
+        <li>&copy; 2023 <em>A'Brea Sun</em></li>
+      </ul>
+
+    </footer>
+
+  </body>
+</html>
